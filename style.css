@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(233, 129, 138, 0.822);
+}
+
+h1{
+    color: rgb(97, 16, 32);
+    font-size: 54px;
+   
+}
+h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+a.btn{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    display: grid;
+    border:10px double rgb(105, 7, 26);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    
+}
+p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(73, 59, 197);
+    box-shadow: 10px 40px 50px darkcyan ;
+}
+.hidden{
+    display: none;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }

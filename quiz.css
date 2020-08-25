@@ -1,0 +1,51 @@
+
+.answerArea{
+    display: grid;
+    background-color: darkgray;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2px;
+    
+}
+
+
+.incorrect{
+    background-color: red;
+}
+
+.correct{
+    background-color: green;
+}
+
+article.answerArea:hover{
+
+    cursor: pointer;
+    color: paleturquoise
+}
+article.answerArea{
+    box-shadow:0 14px 200px rgb(37, 2, 44);
+
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.correct{
+    background-color: green;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+  }
